@@ -6,8 +6,8 @@ class Solid
 {
 public:
 	Solid(string _solidType);
-	virtual double getVolume();
-	virtual double getSurfaceArea();
+	virtual double getVolume() = 0;
+	virtual double getSurfaceArea() = 0;
 	string getType();
 
 protected:
@@ -18,6 +18,7 @@ class Cuboid : public Solid
 {
 public:
 	Cuboid(double w, double l, double h);
+	double getVolume();
 	double getSurfaceArea();
 
 private:

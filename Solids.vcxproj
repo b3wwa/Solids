@@ -119,7 +119,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="solids\Solids.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Solids.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solids.h" />
